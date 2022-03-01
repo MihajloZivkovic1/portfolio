@@ -43,12 +43,21 @@ section{
     background: linear-gradient(135deg, hsla(225, 56%, 37%, 1) 0%, hsla(178, 59%, 54%, 1) 100%);
     background: -moz-linear-gradient(135deg, hsla(225, 56%, 37%, 1) 0%, hsla(178, 59%, 54%, 1) 100%);
     background: -webkit-linear-gradient(135deg, hsla(225, 56%, 37%, 1) 0%, hsla(178, 59%, 54%, 1) 100%);
-    width:40%;
-    height:2.5rem;
+    width:45%;
+    height:2.6rem;
     color:white;
-    font-size:18px;
+    font-size:15px;
     border:none;
     letter-spacing:1px;
+
+    padding: 3px 35px;
+    border-radius: 60px;
+    display: inline-block;
+    background-color: #4b8cfb;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 300ms ease;
 }
 
 
@@ -158,12 +167,12 @@ textarea {
 
 .submit-btn {
     
-    padding: 7px 35px;
+    padding: 3px 35px;
     border-radius: 60px;
     display: inline-block;
     background-color: #4b8cfb;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     cursor: pointer;
     transition: all 300ms ease;
 }
