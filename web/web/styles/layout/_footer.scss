@@ -1,0 +1,39 @@
+//footer//
+footer {
+    padding: 0;
+    color:#fff;
+
+    .pages {
+        list-style: none;
+        display: flex;
+        border-bottom: 1px dashed #fff;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        li {
+            a {
+                display: inline-block;
+                padding: 5px 15px;
+                color: #fff;
+                background: rgba(#fff, 0.0);
+                transition: all .25s ease;
+
+                &:hover {
+                    background: rgba(#fff, 0.05);
+                }
+            }
+        }
+    }
+
+    .social {
+        display: inline-block;
+        font-size: 24px;
+        color: #fff;
+        opacity: 1;
+        transition: all .25s ease;
+
+        &:hover {
+            opacity: 0.75;
+        }
+    }
+}
