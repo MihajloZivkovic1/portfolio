@@ -1,0 +1,36 @@
+//opste klase// 
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    color: #122C34;
+    width: 100%;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
+}
+
+h1 { font-size: 2.2em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1em; }
+h5 { font-size:0.6em; }
+p { margin-bottom: 10px; }
+
+a {
+    text-decoration: none;
+    color: rgba(34, 72, 112, .8);
+    transition: all .25s ease;
+    
+    &:hover {
+        color: rgba(34, 72, 112, 1);
+    }
+}
